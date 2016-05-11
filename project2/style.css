@@ -1,0 +1,188 @@
+#h-t-left
+{
+    float: left;
+    height: 30px;
+    width: 270px;
+}
+#h-t-left ul{
+
+    list-style-type: none;
+}
+#h-t-left ul li{
+    font-size:10px;
+    display:inline-block;
+    margin-right:5px;
+    line-height:18px;
+    color: #ffffff;
+}
+#h-t-left ul li a{
+    color: #ffffff;
+}
+#h-t-right ul li a{
+    color: #ffffff;
+}
+.link
+{
+    text-decoration: none;
+}
+.fix-ul
+{
+    margin-right: 5px;
+}
+#h-t-right
+{
+    float: right;
+    height: 30px;
+    width: 270px;
+
+}
+#h-t-right ul li{
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 18px;
+    color: #ffffff;
+}
+#h-t-right ul{
+    list-style-type: none;
+}
+#h-b-right ul li a{
+    text-decoration: none;
+    color: #033333;
+}
+#h-b-right ul {
+    list-style-type: none;
+}
+#h-b-right ul li {
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 18px;
+}
+#h-b-right
+{
+    margin-top: 20px;
+}
+#option-h-t
+{
+    height: auto;
+    width: 1000px;
+    margin: 0 auto;
+}
+#option-header
+{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+}
+#logo-body ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 60px;
+}
+#logo-body ul li {
+    margin-rightt: 20px;
+    float: left;
+}
+#effect-body
+{
+    margin-top: 25px;
+    font-size: 17px;
+}
+#b-b-left ul
+{
+    list-style-type: none;
+    float: left;
+    margin-top: 70px;
+}
+#b-b-left ul li
+{
+    font-size: 40px;
+}
+#image1-b-b
+{
+    background-image: url("image-b-b.png");
+}
+#image2-b-b
+{
+    background-image: url("image1-b-b.png");
+}
+#image3-b-b
+{
+    background-image: url("image2-b-b.png");
+}
+#image1-b-b ul
+{
+    list-style-type: none;
+}
+#image1-b-b ul li
+{
+    margin-top: 15px;
+    line-height: 1.3;
+    float: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+#box
+{
+    background-image: url("image/box.png");
+}
+#image3-b-b ul{
+    list-style-type: none;
+    margin-top: 115px;
+}
+#image3-b-b ul li
+{
+    margin-top: 15px;
+    line-height: 1.3;
+    float: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+#image2-b-b ul{
+    list-style-type: none;
+    margin-top: 115px;
+}
+#image2-b-b ul li
+{
+    margin-top: 15px;
+    line-height: 1.3;
+    float: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+#ender
+{
+    background-image: url("bottom.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+#last ul
+{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+#last ul li
+{
+    line-height: 1.3;
+    margin-right: 20px;
+    float: left;
+}
+#last ul li a{
+    color: #ffffff;
+    font-size: 12px;
+}
+#h-e-a-image
+{
+    background-image: url("image/clock.png");
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+#logo-body ul li
+{
+    margin-right: 15px;
+}
+

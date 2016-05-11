@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="style.css" rel="stylesheet"/>
+    <title>Title</title>
+</head>
+<body style="margin: 0px">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+<!-- use jssor.slider.debug.js instead for debug -->
+<script>
+    jQuery(document).ready(function ($) {
+
+        var jssor_1_SlideoTransitions = [
+            [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
+            [{b:-1,d:1,o:-1,c:{x:51.0,t:-51.0}},{b:0,d:1000,o:1,c:{x:-51.0,t:51.0},e:{o:7,c:{x:7,t:7}}}],
+            [{b:-1,d:1,o:-1,sX:9,sY:9},{b:1000,d:1000,o:1,sX:-9,sY:-9,e:{sX:2,sY:2}}],
+            [{b:-1,d:1,o:-1,r:-180,sX:9,sY:9},{b:2000,d:1000,o:1,r:180,sX:-9,sY:-9,e:{r:2,sX:2,sY:2}}],
+            [{b:-1,d:1,o:-1},{b:3000,d:2000,y:180,o:1,e:{y:16}}],
+            [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
+            [{b:10000,d:2000,x:-379,e:{x:7}}],
+            [{b:10000,d:2000,x:-379,e:{x:7}}],
+            [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:9100,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:10000,d:1600,x:-200,o:-1,e:{x:16}}]
+        ];
+
+        var jssor_1_options = {
+            $AutoPlay: true,
+            $SlideDuration: 1000,
+            $SlideEasing: $Jease$.$OutQuint,
+            $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+            },
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+            },
+            $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+            }
+        };
+
+        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+
+
+    });
+</script>
+<style>
+
+    /* jssor slider bullet navigator skin 05 css */
+    /*
+    .jssorb05 div           (normal)
+    .jssorb05 div:hover     (normal mouseover)
+    .jssorb05 .av           (active)
+    .jssorb05 .av:hover     (active mouseover)
+    .jssorb05 .dn           (mousedown)
+    */
+    .jssorb05 {
+        position: absolute;
+    }
+    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+        position: absolute;
+        /* size of bullet elment */
+        width: 16px;
+        height: 16px;
+       background-color: #dddddd;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .jssorb05 div { background-position: -7px -7px; }
+    .jssorb05 div:hover, .jssorb05 .av:hover { background-color: #000000 }
+    .jssorb05 .av { background-color: #000000 }
+    .jssorb05 .dn, .jssorb05 .dn:hover { background-color: #000000 }
+
+</style>
+<div class="h-top" style="height: 30px;width: 100%;background-color: #0f75bc;margin-bottom: 20px">
+    <div id="option-h-t" style="height: 30px; width: 1350px">
+    <div id="h-t-left" style="margin-left: 5px;margin-top: 5px">
+        <ul style="margin: 0px;padding: 0px">
+            <li class="fix-ul"><a class="link" href="X"> UB ACADEMY </a></li>
+            <li><img src="image/line.png" /></li>
+            <li><a class="link" href="X">CỘNG ĐỒNG  </a></li>
+            <li><img src="image/line.png" /></li>
+            <li><a class="link" href="X">BANKER.VN</a></li>
+        </ul>
+    </div>
+    <div id="h-t-right" style="margin-top: 5px; margin-left: 5px">
+        <ul style="margin: 0px;padding: 0px">
+            <li><img src="image/phone.png" /><a class="link" href="X"> 094-7793-700</a></li>
+            <li><img src="image/line.png" /></li>
+            <li><img width="12px" height="12px" src="image/mail.png" /><a class="link" href="X"> Bachnx@gmail.com</a></li>
+            <li><img src="image/english.png" /></li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+    <div id="option-header">
+        <div class="header" style="height: auto;width: 1350px; margin: 0 auto;">
+        <div class="h-body" style="height: 100px; width: 100%">
+            <div id="h-b-left" style="float: left">
+                <img src="image/logo.png">
+            </div>
+            <div id="h-b-right" style="float: right">
+                <ul style="margin: 0px;padding: 0px;margin-right: 0px">
+                    <li><img width="15px" height="15px" src="image/home.png"/>
+                        <a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Con người UB</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="h-end">
+    <div id="h-e-all" style="background-color: #0f75bc">
+        <div id="h-e-a-image" style="margin: 0 auto; height: 385px; width: 1529px">
+            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 350px; overflow: hidden; visibility: hidden;">
+
+                <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1200px; height: 350px; overflow: hidden;">
+                    <div data-p="225.00" style="display: none;">
+                        <img data-u="image" src="image/minhhoa1.png" />
+                        <div style="height: 110px; width: 440px; background-color: #F89502;position: absolute; opacity: 0.7 ;margin-top: 60px">
+                            <ul style="list-style-type: none;padding-left: 10px;opacity: 1;">
+                                <li style="color: #ffffff ;font-size: 25pt; opacity: 1">UB GROUP</li>
+                                <li style="color: #ffffff;font-size: 20pt;opacity: 1">Sinh ra để thay dổi ngân hàng thế giới</li>
+                            </ul>
+                        </div>
+                        <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;"></div>
+                        <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;"></div>
+                    </div>
+                    <div data-p="225.00" style="display: none;">
+                        <img data-u="image" src="image/minhhoa1.png" />
+                    </div>
+                    <div data-p="225.00" style="display: none;">
+                        <img data-u="image" src="image/minhhoa2.png" />
+                    </div>
+
+                </div>
+
+                <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" >
+
+                    <div data-u="prototype" style="width:16px;height:16px;"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="body">
+
+        <div id="b-top">
+            <div style="width: 1000px;height:270px;margin: 0 auto; margin-bottom: 60px;margin-top: 60px">
+            <div id="b-t-left" style="height: 270px;width: 600px;float: left">
+                <div class="title">
+                    UB GROUP
+                </div>
+                <div class="line-body" style="height: 4px;width: 850px">
+                    <div style="height: 4px;width: 80px; background-color: #f89502;float: left">
+
+                    </div>
+                    <div style="height: 2px;width: 500px;background-color: #e8e8e8">
+
+                    </div>
+                </div>
+                <div id="effect-body">
+                    Có thể nói UB Group không chỉ đặt những viên gạch đầu tiên cho ngành đào tạo nhân sự ngân hàng mà còn để lại những dấu ấn cho lĩnh vực này. Song song với việc phát huy những thế mạnh sẵn có. UB Group vẫn luôn tìm tòi, học hỏi và đưc rút kinh nghiệm để có thể cho ra những sản phẩm tốt nhất cho khách hàng và đối tác như:
+
+                </div>
+                <div id="logo-body">
+                    <ul>
+                        <li><img src="image/logo-body1.png"></li>
+                        <li><img src="image/logo-body2.png"></li>
+                        <li><img src="image/logo-body3.png" style="margin-top: 5px"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="b-t-right" style="height: 270px;width: 360px;float: right">
+                <img src="image/image-body-top.png">
+            </div>
+            </div>
+        </div>
+        <div id="b-body" style="background-color: #f89502; height: 340px; width: 100%">
+            <div style="height: 340px;width: 1600px;margin: 0 auto">
+            <div id="b-b-option" style="width: 260px;height: 270px;margin: 0 auto;padding-top: 35px;padding-bottom: 35px;float: left;padding-left: 180px">
+
+                <div style="height: 270px;width: 260px;background-color: #ffffff">
+                    <div id="b-b-left" >
+                        <ul>
+                            <li>DỰ ÁN</li>
+                            <li>UB GROUP</li>
+                            <li style="margin-top: 10px">
+                                <div style="height: 4px;width: 80px; background-color: #f89502;float: left">
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div style="width: 1110px;height: 340px; float: right">
+                <div id="image1-b-b" style="height: 340px;width: 600px;float:left;">
+                    <ul style="
+                        margin-top: 100px;
+                        margin-right: 0px;
+                        padding-left: 20px;">
+                        <li style="font-size: 40pt">Nguồn lực ngân hàng</li>
+                        <li>Có thể nói UB Group không chỉ đặt những viên gạch đầu tiên cho ngành đào tạo nhân sự ngân hàng mà còn để lại những dấu ấn cho lĩnh vực này. </li>
+                        <li><div id="box" style="height: 30px;width: 100px;"><a href="X" style="color: #f89502;text-decoration: none;padding-left: 4px">Read more</a></div></li>
+                    </ul>
+                </div>
+                <div id="image2-b-b" style="height: 340px;width: 260px;float: left">
+                    <ul>
+                        <li style="font-size: 30pt">Dự án khác nữa</li>
+                        <li><div id="box" style="height: 30px;width: 100px;"><a href="X" style="color: #f89502;text-decoration: none;padding-left: 4px">Read more</a></div></li>
+                    </ul>
+
+                </div>
+                <div id="image3-b-b" style="height: 340px;width: 240px;float: left">
+                    <ul>
+                        <li style="font-size: 30pt">Dự án khác nữa</li>
+                        <li><div id="box" style="height: 30px;width: 100px;"><a href="X" style="color: #f89502;text-decoration: none;padding-left: 4px">Read more</a></div></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+        <div id="b-bottom">
+            <div style="height: 550px;width: 1310px;margin: 0 auto">
+            <div id="b-bo-left" style="margin-bottom: 50px;float: left;width: 730px">
+                <ul style="list-style-type: none">
+                    <li style="font-size: 20pt;color: #000000;margin-bottom: 20px">Tin tức</li>
+                    <li style="margin-bottom: 40px">
+                        <div class="line-body" style="height: 4px;width: 850px">
+                            <div style="height: 4px;width: 80px; background-color: #f89502;float: left">
+
+                            </div>
+                            <div style="height: 2px;width: 500px;background-color: #e8e8e8">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li style="margin-bottom: 40px">
+                        <div style="height: 100px;width: 550px ">
+                        <div style="height: 100px;width: 150px;float: left; margin-top: 15px"><img src="image/image-b-bo.png"></div>
+                        <div style="height: 100px;width: 400px;float: right">
+                            <ul style="list-style-type: none;padding-left: 15px">
+                                <li style="font-size: 20pt">Nguồn lực nhân lực mới ngân hàng</li>
+                                <li style="color: #b8b8b8"><img src="image/celender.png" style="margin-bottom: -5px"> Mar 18,15 </li>
+                                <li style="color: #b8b8b8;font-size: 15pt">Có thể nói UB Group không chỉ đặt những viên gạch đầu tiên
+                                    cho ngành đào tạo nhân sự ngân hàng mà còn...</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="margin-bottom: 40px">
+                        <div style="height: 100px;width: 550px ">
+                            <div style="height: 100px;width: 150px;float: left; margin-top: 15px"><img src="image/image-b-bo.png"></div>
+                            <div style="height: 100px;width: 400px;float: right">
+                                <ul style="list-style-type: none;padding-left: 15px">
+                                    <li style="font-size: 20pt">Nguồn lực nhân lực mới ngân hàng</li>
+                                    <li style="color: #b8b8b8"><img src="image/celender.png" style="margin-bottom: -5px"> Mar 18,15 </li>
+                                    <li style="color: #b8b8b8;font-size: 15pt">Có thể nói UB Group không chỉ đặt những viên gạch đầu tiên
+                                        cho ngành đào tạo nhân sự ngân hàng mà còn...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="margin-bottom: 40px">
+                        <div style="height: 100px;width: 550px ">
+                            <div style="height: 100px;width: 150px;float: left; margin-top: 15px"><img src="image/image-b-bo.png"></div>
+                            <div style="height: 100px;width: 400px;float: right">
+                                <ul style="list-style-type: none;padding-left: 15px">
+                                    <li style="font-size: 20pt">Nguồn lực nhân lực mới ngân hàng</li>
+                                    <li style="color: #b8b8b8"><img src="image/celender.png" style="margin-bottom: -5px"> Mar 18,15 </li>
+                                    <li style="color: #b8b8b8;font-size: 15pt">Có thể nói UB Group không chỉ đặt những viên gạch đầu tiên
+                                        cho ngành đào tạo nhân sự ngân hàng mà còn...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="b-bo-right" style="margin-bottom: 50px;float: right;width: 580px;margin-top: 16px">
+                <div style="margin-bottom: 20px; font-size: 20pt">Video</div>
+                <div class="line-body" style="height: 4px;width: 850px;margin-bottom: 60px">
+                    <div style="height: 4px;width: 80px; background-color: #f89502;float: left">
+
+                    </div>
+                    <div style="height: 2px;width: 500px;background-color: #e8e8e8">
+
+                    </div>
+                </div>
+                <div>
+                    <iframe width="580" height="360" src="https://www.youtube.com/embed/PZYXsqqfOr4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+
+<div id="ender">
+
+    <div style="background-color: #ffffff;height: 150px; width: 100%">
+        <div style="height: 285px;width: 1600px;margin: 0 auto">
+            <div style="width: auto;height: auto;margin: 0 auto; height: 134px;width: 1096px"><img src="image/Untitled-4.png"></div>
+        </div>
+    </div>
+    <div style="background-color: #f89502; height: 12px; width: 100%;margin-top: 20px"></div>
+    <div style="background-color: #0f75bc; height: 285px;width: 100%">
+        <div style=" height: 285px;width: 1350px;margin: 0 auto;padding-top: 50px">
+            <div>
+                <div style="color: #ffffff;font-size: 25px;margin-bottom: 10px">Công ty cổ phần đào tạo UB</div>
+                <div style="color: #ffffff;">Số DKKD: 0983546588 do sở kế hoạch đầu tư Hà Nội cấp</div>
+                <div id="last" style="height: 17px;width: 500px">
+                    <ul style="padding: 0px">
+                        <li style="margin: 0px"><img src="image/Untitled-2.png"></li>
+                        <li style="margin-left: 0px"><a class="link" href="">số 2 Ngô Quyền Hoang Kiếm Hà Nội</a> </li>
+                        <li style="padding-left: 3px"><img src="image/Line.png"></li>
+                        <li><img src="image/phone.png"><a class="link" href="X"> 094-7793-700</a></li>
+                        <li><img src="image/Line.png"></li>
+                        <li><img src="image/mail.png"><a class="link"href=""> Bachnx@gmail.com</a> </li>
+
+                    </ul>
+                </div>
+                <div style="height: 43px;width: 192px"><img src="image/Untitled-3.png"></div>
+            </div>
+        </div>
+    </div>
+
+</div
+</body>
+</html>

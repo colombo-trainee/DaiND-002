@@ -1,0 +1,402 @@
+@font-face {
+    font-family:font_roboto;
+    src:url(‘../fonts/roboto/Roboto-Black.ttf’);
+    font-weight:normal;
+    font-style:normal;
+    }
+#all
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    font-family: "font_roboto"
+
+}
+#header
+{
+    background-image: url("../image/background.png");
+    background-position: bottom;
+    height: 227px;
+    width: 100%;
+}
+#headertop
+{
+    font-size: 10px;
+    font-family: sans-serif;
+    height: 30px;
+    width: 100%;
+    background-color: #2e6da4;
+
+}
+#headertopleft
+{
+    width: 274px;
+    height: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-left: 140px;
+
+
+}
+#headertopright
+{
+    height: 20px;
+    width: 260px;
+    float: right;
+    padding-top: 10px;
+    margin-right: 104px;
+
+}
+#a
+{
+    color: #3e99e1;
+    text-decoration: none;
+    margin-right: 12px;
+}
+#b
+{
+    color: #0000ff;
+    text-decoration: none;
+    margin-left: 12px;
+}
+#bb1
+{
+    background-image: url("../image/phone.png");
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 35px;
+
+}
+#bb2
+{
+    background-image: url("../image/mail.png");
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 35px;
+}
+#headerbody
+{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#headerbodyleft
+{
+    background-repeat: no-repeat;
+    height: 59px;
+    width: 177px;
+    float: left;
+    margin-left: 140px;
+}
+#menu
+{
+    margin-right: 35px;
+    text-decoration: none;
+    color: #000000;
+}
+#headerbodyright
+{
+    float: right;
+    text-align: center;
+    margin: 0px;
+    height: 61px;
+
+}
+.headerend-left
+{
+    float: left;
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 28px;
+}
+.headerend-right
+{
+    float: right;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 45px;
+    margin-right: 145px;
+}
+#headerbodyright div ul a{
+    text-decoration: none;
+}
+#bodyleft
+{
+    width: 982px;
+    height: auto;
+    background-color: #ffffff;
+    margin-left: 140px;
+}
+#bodyright
+{
+    width: 300px;
+    height: 1068px;
+}
+#canchinh
+{
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#bodyleft-baner
+{
+    font-size: 25px;
+    color: #3e99e1;
+    padding-top: 5px;
+}
+#tl
+{
+    font-size: 12px;
+    color: #dcdcdc;
+    text-decoration: none;
+    margin-left: 27px;
+}
+#title
+{
+    margin-top: 20px;
+}
+#title-right
+{
+    float: right;
+    font-size: 15px;
+}
+#title-right ul a div
+{
+    margin-right: 10px;
+}
+a .c:hover{
+    font-size: 18px;
+    text-decoration: none;
+}
+a .c:active,a:visited{
+    font-size: 15px;
+    text-decoration: none;
+}
+.chiadong
+{
+    border-bottom: solid 2px #00bfff;
+    margin-top: 65px;
+}
+.anh
+{
+    height: 2px;
+    width: 300px ;
+    background: linear-gradient(-90deg ,#ffffff,#dcdcdc);
+}
+.c
+{
+    text-decoration: none;
+    color: #888888;
+}
+.anhh
+{
+    margin-top: 10px;
+}
+.anhhh
+{
+    background-image: url("../image/muiten.png");
+    height: 6px;
+    width: 4px;
+    float: left;
+    margin-top: 8px;
+}
+#doan1
+{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 20px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+#doan2
+{
+    font-size: 15pt;
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+#chuthich
+{
+    margin-left: 425px;
+    font-size: 12pt;
+    color: #dcdcdc;
+}
+#bottom
+{
+    background-image: url("../image/bottom.png");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.fb-like
+{
+    margin-top: 14px;
+    margin-bottom: 15px;
+    float: left;
+}
+#google
+{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    margin-left: 180px;
+}
+#body
+{
+    height: 1430px;
+    width: 1350px;
+
+}
+#bodyright
+{
+    float: right;
+    background-color: #ffffff;
+    margin-right: -110px;
+    margin-top: 20px;
+    width:  300px;
+    height:  auto;
+
+}
+#bodyleft
+{
+    float: left;
+    margin-top: 20px;
+}
+#tieude
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.anhnoidung
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    background-image: url("../image/eg1.png");
+    margin-left: 5px;
+}
+.d
+{
+    font-size: 12pt;
+    color: #000000;
+    margin-left: 55px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.e
+{
+    font-size: 12px;
+    color: #dcdcdc;
+    margin-left: 55px;
+}
+.noidung
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#google
+{
+    float: right;
+    margin-right: 445px;
+    margin-left: 0px;
+}
+.fb-like
+{
+    float: left;
+}
+.noidung
+{
+    text-decoration: none;
+    color: #000000;
+}
+#chuthich
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#headertopleft ul a{
+    color: #ffffff;
+    margin-left: 5px;
+}
+#headertopright ul a{
+
+    color: #ffffff;
+}
+#headertopright ul li{
+
+    color: #ffffff;
+}
+#headerbodyright ul a
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #3e99e1;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.option-all
+{
+    width: 1600px;
+    margin: 0 auto;
+    height: auto;
+}
+#title-left ul li
+{
+    font-size: 12px;
+    color: #adadad;
+}
+#title-left
+{
+    float: left;
+}
+.c{
+    text-decoration: none;
+}
+a .list-header:hover
+{
+    color: #ffffff;
+    background-color: #337ab7;
+}
+.h-e-option{
+    height: 128px;
+    width: 1600px;
+    margin: 0 auto;
+}
+.option-header
+{
+    height: 100px;
+    width: 1600px;
+    margin: 0 auto;
+}
+a .a-top-left:hover{
+    text-decoration: none;
+    font-size: 10px;
+}
+a .a-top-right:hover
+{
+    text-decoration: none;
+    font-size: 10px;
+}
+.link
+{
+    text-decoration: none;
+}
+.icon
+{
+    height: 20px;
+    width: 20px;
+}

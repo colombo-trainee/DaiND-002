@@ -1,3 +1,9 @@
+@font-face {
+    font-family:font_roboto;
+    src:url(‘../fonts/roboto/Roboto-Black.ttf’);
+    font-weight:normal;
+    font-style:normal;
+}
 #h-t-left
 {
     float: left;
@@ -15,11 +21,13 @@
     line-height:18px;
     color: #ffffff;
 }
-#h-t-left ul li a{
+#h-t-left ul a{
     color: #ffffff;
+    font-size: 10px;
 }
-#h-t-right ul li a{
+#h-t-right ul a{
     color: #ffffff;
+    font-size: 10px;
 }
 .link
 {
@@ -46,18 +54,16 @@
 #h-t-right ul{
     list-style-type: none;
 }
-#h-b-right ul li a{
-    text-decoration: none;
-    color: #033333;
+#h-b-right ul a{
+    color: #2aabd2;
+    margin-left: 10px;
+    font-size: 15px;
 }
 #h-b-right ul {
     list-style-type: none;
 }
 #h-b-right ul li {
-    font-size: 17px;
-    display: inline-block;
-    margin-left: 15px;
-    line-height: 18px;
+   color: #2aabd2;
 }
 #h-b-right
 {
@@ -82,8 +88,8 @@
     display: inline-block;
     margin-top: 60px;
 }
-#logo-body ul li {
-    margin-rightt: 20px;
+#logo-body ul a{
+    margin-right: 20px;
     float: left;
 }
 #effect-body
@@ -125,9 +131,12 @@
     color: #ffffff;
     font-size: 15pt;
 }
-#box
+.box
 {
-    background-image: url("image/box.png");
+    height: 30px;
+    width: 102px;
+    color: #e89502;
+    border: 1px #e89502 solid;
 }
 #image3-b-b ul{
     list-style-type: none;
@@ -157,7 +166,7 @@
 {
     background-image: url("bottom.png");
     background-repeat: no-repeat;
-    margin: 0 auto;
+    margin: 305px 0 auto;
 }
 #last ul
 {
@@ -185,4 +194,12 @@
 {
     margin-right: 15px;
 }
-
+#jssor_1
+{
+    border: 7px #48d6ff outset;
+}
+.title
+{
+    font-size: 18px;
+    color: #2aabd2;
+}
